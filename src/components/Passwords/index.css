@@ -1,0 +1,130 @@
+.password-container {
+  min-height: 50vh;
+  min-width: 80vw;
+  margin-top: 10px;
+  background-color: #5763a5;
+  margin-right: 10px;
+  border-radius: 10px;
+  padding: 20px;
+  overflow: ;
+}
+.top-section{
+    display: flex;
+    justify-content: space-between;
+}
+.password-count-container{
+    display: flex;
+}
+.your-passwords-heading{
+    color:#f8fafc;
+    font-family: 'Roboto';
+    font-size: 20px;
+}
+.passwords-count{
+    color: #f8fafc;
+    font-size: 20px ;
+    font-weight: bold;
+    align-self: center;
+    border-width: 1px;
+    border-radius: 30px;
+    border-style: solid;
+    padding: 10px;
+    height: 5px;
+    display: flex;
+    align-items: center;
+    margin-left: 5px;
+
+}
+.search-input-container{
+    background-color: #ffffff;
+    height: 40px;
+    width: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    padding: 2px;
+    padding-left: 10px;
+}
+.search-logo{
+    height: 20px;
+    width: 20px;
+}
+.search-input{
+    border-width: 0;
+    outline: none;
+    font-weight: bold;
+    
+}
+.show-passwords-container{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+.checkbox {
+    height: 15px;
+    width: 15px;
+    align-self: center;
+}
+.label {
+    font-family: 'Roboto';
+    color: #f8fafc;
+    font-size: 20px;
+    align-self:center;
+}
+.no-passwords-image{
+    height: 50vh;
+    width: 30vw;
+
+}
+.no-passwords-heading{
+    color: #ffffff;
+    font-family: 'Roboto';
+}
+.no-password-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+@media screen and (max-width : 767px){
+ .search-input-container{
+    width: 160px;
+ }   
+ .search-input{
+    width: 120px;
+ }
+}
+
+@media screen and (max-width : 767px) {
+    .your-passwords-heading{
+        font-size: 13px;
+        align-self: center;
+    }
+    .passwords-count{
+        padding: 10px;
+    }
+}
+@media screen and (max-width : 767px) {
+    .no-password-container{
+        align-items: center;
+    }
+    .no-passwords-image{
+        height: 200px;
+        width: 250px;
+    }
+}
+
+@media screen and (max-width : 767px) {
+    .show-passwords{
+        display: flex;
+    }
+    .checkbox{
+        height: 10px;
+        width: 10px;
+    }
+    .label{
+        font-size: 10px;
+        align-self: center;
+    }
+}
